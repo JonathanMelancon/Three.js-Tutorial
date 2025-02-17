@@ -1,0 +1,21 @@
+/* * is a wildcard. Targets every element in the page */
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+/*Prevents scrolling past canvas for control schemes that do not catch the scrolling events*/
+html,
+body{
+    overflow: hidden;
+}
+/* webgl class = canvas (as we definined in HTML body. Removes other anomalies and issues */
+.webgl
+{
+    position:fixed;
+    top:0;
+    left:0;
+    outline:none;
+}
